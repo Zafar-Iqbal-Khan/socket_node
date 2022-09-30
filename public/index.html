@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Chat Server</title>
+	</head>
+	<body>
+		<div>
+			<main>
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							autocomplete="off"
+							required
+						/>
+					</div>
+					<div>
+						<label for="room1">ChatId1</label>
+						<!-- <select name="room" id="room">
+							<option value="Maths">Maths</option>
+							<option value="Chemistry">Chemistry</option>
+							<option value="C">C</option>
+							<option value="D">D</option>
+							<option value="E">E</option>
+						</select> -->
+						<input type="text" id="room1" name="room1" placeholder="enter your room id " autocomplete="off" required>
+						<label for="room2">ChatId2</label>	
+						<input type="text" id="room2" name="room2" placeholder="enter your room id " autocomplete="off" required>
+					</div>
+					<button type="submit">Join Chat</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
